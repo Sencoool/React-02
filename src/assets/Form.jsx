@@ -12,7 +12,7 @@ export default function Form() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    alert("A name was submitted: " + name);
+    alert("A name was submitted: " + name); // Pop windows
     console.log("A name was submitted: " + name);
 
     name.length >= 5 ? setDisplayName(true) : setDisplayName(false);
